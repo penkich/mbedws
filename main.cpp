@@ -15,11 +15,11 @@ int main()
         analogInValue = analogInModule;
         if (analogInValue > 0.02){
             if (sp==1){
-           sp=0;
-           }else{
-           sp=1;
-           }
-       wait(0.005*analogInValue);
+                sp=0;
+            }else{
+                sp=1;
+            }
+        wait(0.005*analogInValue);
        }
     }
 }
